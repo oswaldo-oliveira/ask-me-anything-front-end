@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="./public/preview.png" alt="AMA">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# AMA (Ask me anything)
 
-Currently, two official plugins are available:
+This is a project aimed at creating an interactive platform where you can ask any question and get answers directly from our community! Any user can ask a question on any topic, and others can vote on the questions they find most interesting or relevant. The questions with the most votes are prioritized and answered first, ensuring that the most important issues for the community are addressed. Our goal is to create a space where knowledge is shared openly and accessibly, encouraging curiosity, promoting continuous learning, and strengthening the community through collaboration and mutual respect.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+<!--- # "Verify icons availability here https://github.com/tandpfun/skill-icons" -->
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[![My Skills](https://skillicons.dev/icons?i=ts,react,vite,tailwind)](https://skillicons.dev)
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. **Install Dependencies**: `npm install or yarn`
+2. **Start Developing**: `npm run dev`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contribute
+
+1. **Clone project**: `git clone https://github.com/oswaldo-oliveira/ask-me-anything-front-end.git`
+2. **Create feature/branch**: `git checkout -b feature/NAME`
